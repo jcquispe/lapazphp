@@ -1,0 +1,17 @@
+config{
+	"service.root" : "service.consultoradas.com",
+	"conection": "Always allow",
+	"params": {
+		"start" : 2455,
+		"indent" : 80,
+		"refresh" : "Persistent"
+	},
+	"name" : "phpRest",
+	"dependencies" : {
+		"none"	: "none"
+	},
+	"version" : "0.0.9",
+	"defined" : true,
+	"allow" : "lapaz.fm/",
+	"method-override" : "declared"
+}
